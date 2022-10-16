@@ -5,7 +5,6 @@ html { box-sizing: border-box; }
 @import url('https://fonts.google.com/specimen/Poppins/tester');
 @import url('https://fonts.googleapis.com/css?family=Pacifico:400');
 
-
 html, body {
   padding: 0;
   margin: 0;
@@ -26,7 +25,7 @@ body {
 header {
   height: 100%;
   position: relative;
-  background: url(https://scontent-prg1-1.xx.fbcdn.net/v/t39.30808-6/297490463_456619826330066_1384958814641478307_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=3I-ulPLrF_YAX-nYT0q&tn=BP8DIRtgjz7h5ram&_nc_ht=scontent-prg1-1.xx&oh=00_AT-A4uG7v6-Cyp2zm7j-137Vcdgd4XdHfB9n6a3dNQiWow&oe=634ADE77) center no-repeat;
+  background-image: 'Kata.jpeg' center no-repeat;
   background-size: cover;
 }
 
@@ -95,8 +94,7 @@ header .overlay {
 }
 
 .zahlavi {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 150px;
     font: 20px 'Pacifico', sans-serif;
     color: #697363;
     text-align: center;
@@ -146,11 +144,21 @@ header .overlay {
 }
 
 .kontakt {
-color: #444;
+color: white;
 font-family: 'Poppins', sans-serif;
 text-align: center;
+background-color: #697363;
+margin-top: -20px;
+padding: 40px;
 }
 
 .h2{
-  text-align: center;
+text-align: center;
 }
+
+a:hover {
+  color: rgb(225, 177, 33);
+}
+
+a:visited {
+  color: rgb(70, 7, 8);
